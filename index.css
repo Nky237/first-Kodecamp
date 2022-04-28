@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    min-height: 2000px;
+    width: 100%;
+
+}
+.box{
+    /* border: 2px solid white; */
+    min-height: 1500px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    
+}
+.box1, .box2, .box3, .box4,.box5, .box6 {
+/* border: 2px solid white; */
+height: 100vh;
+width: 100%;
+}
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    
+}
+nav{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    /* padding-top: 10px; */
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+.list{
+    margin-left: 90px;
+    
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    
+    
+    
+}
+nav ul li{
+    margin-left: 50px;
+    margin-top: 30px;
+    
+  
+}
+nav ul li a{
+    color: black;
+}
+.whatsapp {
+  border-left: 1px solid black;
+    display: flex;
+    margin-left: 70px;
+    padding-left: 20px;
+
+}
+.icon img{
+    width: 30px;
+    height: 30px;
+    margin-top: 25px;
+    
+    
+}
+.inner-section{
+    margin-left: 20px;
+}
+
+.end{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 200px;
+}
+
+.pic{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.txt{
+    width: 50%;
+    margin-top: 150px;
+    margin-left: 90px;
+    text-align: center;
+}
+.txt h1{
+    font-size: 56px;
+    font-weight: bold;
+}
+.txt button{
+    height: 50px;
+    width: 50%;
+    background-color: #FF6433;
+    border-radius: 10px;
+    margin-top: 49px;
+}
+.txt button a{
+    color: white;
+
+}
+.cam{
+    display: flex;
+    justify-content: flex-end;
+    width: 40%;
+    margin: 30px 50px;
+}
+.cam img{
+    width: 100%;
+    height: 450px;
+    
+}
+
+/* section two */
+.box2{
+    background-color: #E2E6E9;
+    display: flex;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+.sec1{
+    /* border: 2px solid black; */
+    
+    width: 40%;
+    height: 520px;
+}
+.sec1 h2{
+    font-size: 48px;
+}
+.ony{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.text-box{
+    margin-left: 20px;
+}
+
+.sec2{
+    /* border: 2px solid black; */
+    width: 50%;
+    height: 520px;
+    margin-left: 60px
+}
+
+.sec2 h3{
+    font-size: 48px;
+    padding-bottom: 30px;
+}
+.arrow{
+    display: flex;
+    margin-left: 50px;
+    
+}
+.arrow img{
+    object-fit: contain;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.sec2 input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.sec2 button{
+    height: 50px;
+    width: 30%;
+    background-color: #FF6433;
+    border-radius: 10px;
+    margin-top: 29px;
+ 
+}
+
+/* FOR BOX3 */
+
+.box3{
+    display: flex;
+    background-color: white;
+
+}
+.para{
+    margin: auto;
+    width: 40%;
+}
+.circ{
+    width: 50%;
+    margin-top: 80px;
+    
+}
+.par{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    margin-left: 90px;
+    
+}
+.num{
+    margin-right: 20px;
+    border: 2px solid black;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 10px;
+    background: linear-gradient(#661CE7 70%, #8B52ED 30%);
+    font-size: 20px;
+    color: white;
+    
+
+}
+.writ h2{
+    margin-bottom: 5px;
+}
+
+
+
+/* Box4 */
+.box4{
+    background-color: #E2E6E9;
+   }
+   
+.boxy{
+    height: 300px;
+    width: 50%;
+    margin: auto;
+    background-color: #E2E6E9;
+    display: flex;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.ono, .two{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+}
+.onek{
+    /* border: 1px solid black; */
+    background-color: white;
+    width: 22%;
+}
+.onek img{
+width: 25%;
+margin-top: 40px;
+margin-left: 50px;
+}
+.onek p{
+    text-align: center;
+}
+.headings{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    margin-top: 30px;
+}
+
+
+
+
+/* FOR BOX5 */
+.box5{
+    display: flex;
+    flex-direction: column;
+    background-color: #E2E6E9;
+    padding-top: 50px;
+    width: 100%;
+
+       
+    /* justify-content: space-around; */
+
+}
+.fee{
+    display: flex;
+    position: relative;
+}
+ .car{
+    /* border: 2px solid black; */
+    width: 20%; 
+    height: 300px;
+
+
+    
+}
+.fee{
+    width: 100%;
+}
+.car img{
+    width: 100%;
+    height: 300px;
+    
+}
+.car1{
+    background-color: orangered;
+    position: absolute;
+    left: 118px;
+    width: 40%;
+    height: 300px;
+}
+.car2{
+    width: 53%;
+    position: absolute;
+    left: 630px;
+    height: 300px;
+}
+.car2 img{
+    width: 100%;
+    height: 300px;
+}
+
+.fet{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    margin-top: 90px;
+}
+.fet1, .fet2, .fet3, .fet4{
+    /* border: 2px solid black; */
+    width: 15%;
+    height: 100px;
+}
+.fet h2{
+    text-align: center;
+    font-size: 35px;
+    color: #661CE7;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    
+}
+.fet p{
+    text-align: center;
+}
+
+
+/* BOX6 */
+.box6{
+    background-color: white;
+    padding-top: 80px;
+}
+.box6 h2{
+    text-align: center;
+    font-size: 30px;
+}
+.logo{
+   width: 70%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 90px; 
+}
+.log{
+    width: 24%;
+    height: 100px;
+    /* border: 2px solid black; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
