@@ -234,8 +234,8 @@ nav ul li a{
    }
    
 .boxy{
-    height: 300px;
-    width: 50%;
+    height: 340px;
+    width: 70%;
     margin: auto;
     background-color: #E2E6E9;
     display: flex;
@@ -247,14 +247,14 @@ nav ul li a{
 .ono, .two{
     /* border: 1px solid black; */
     width: 100%;
-    height: 120px;
+    height: 140px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .onek{
     /* border: 1px solid black; */
     background-color: white;
-    width: 22%;
+    width: 23%;
 }
 .onek img{
 width: 25%;
