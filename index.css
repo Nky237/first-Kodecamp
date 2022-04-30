@@ -17,7 +17,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 40px;
+    padding-top: 10px;
     
 }
 .box1, .box2, .box3, .box4,.box5, .box6 {
@@ -33,59 +33,57 @@ width: 100%;
     
 }
 nav{
-    /* border: 1px solid black; */
-    display: flex;
-    flex-direction: row;
-    /* padding-top: 10px; */
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    
+    /* border: 1px solid black;  */
+    width: 95%;
+    height: 50px; 
+    margin-left: 50px; 
+    display: flex; 
+    align-items: center; 
 }
-.list{
-    margin-left: 90px;
-    
-}
-nav ul{
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    
-    
-    
-}
-nav ul li{
-    margin-left: 50px;
-    margin-top: 30px;
-    
-  
-}
-nav ul li a{
-    color: black;
-}
-.whatsapp {
-  border-left: 1px solid black;
-    display: flex;
-    margin-left: 70px;
-    padding-left: 20px;
+.golo{
+    /* border: 2px solid black; */
+    width: 20%;
+    height: 40px;
+    margin-top: 10px;
+
 
 }
+.bar{
+     /* border: 2px solid black; */
+     width: 40%;
+    height: 40px;
+    margin-left:350px;
+    
+   
+}
+.bar ul{
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    margin-top: 10px;
+}
+.bar ul li{
+    list-style: none;
+    margin-left: 60px;
+
+}
+.whatsapp{
+    border-left: 1px solid black;
+    width: 20%;
+   height: 40px;
+   margin-left:40px;
+   display: flex;
+ 
+}
+
 .icon img{
-    width: 30px;
-    height: 30px;
-    margin-top: 25px;
-    
-    
+    height: 40px;
+    margin-left: 10px;
 }
 .inner-section{
     margin-left: 20px;
 }
 
-.end{
-    display: flex;
-    justify-content: flex-end;
-    margin-left: 200px;
-}
 
 .pic{
     display: flex;
@@ -95,8 +93,8 @@ nav ul li a{
 .txt{
     width: 50%;
     margin-top: 150px;
-    margin-left: 90px;
-    text-align: center;
+    margin-left: 50px;
+    /* text-align: center; */
 }
 .txt h1{
     font-size: 56px;
@@ -130,7 +128,7 @@ nav ul li a{
     background-color: #E2E6E9;
     display: flex;
     padding-top: 50px;
-    padding-left: 100px;
+    padding-left: 50px;
 }
 .sec1{
     /* border: 2px solid black; */
@@ -198,7 +196,7 @@ nav ul li a{
 }
 .circ{
     width: 50%;
-    margin-top: 80px;
+    margin-top: 50px;
     
 }
 .par{
@@ -211,8 +209,8 @@ nav ul li a{
 .num{
     margin-right: 20px;
     border: 2px solid black;
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
     text-align: center;
     padding-top: 10px;
@@ -225,7 +223,11 @@ nav ul li a{
 .writ h2{
     margin-bottom: 5px;
 }
-
+.writ p{
+    line-height: 27px;
+    font-size: 21px;
+    
+}
 
 
 /* Box4 */
@@ -259,7 +261,7 @@ nav ul li a{
 .onek img{
 width: 25%;
 margin-top: 40px;
-margin-left: 50px;
+margin-left: 80px;
 }
 .onek p{
     text-align: center;
@@ -363,7 +365,13 @@ margin-left: 50px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-left: 90px; 
+    margin-left: 100px; 
+}
+.log img{
+    margin-left: 20px;
+}
+.log p{
+    margin-left: 10px;  
 }
 .log{
     width: 24%;
