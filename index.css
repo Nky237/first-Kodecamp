@@ -7,6 +7,7 @@
     /* min-height: 2000px; */
     width: 100%;
     margin: 0 auto;
+    overflow: hidden;
 
 }
 .box{
@@ -104,6 +105,9 @@ nav{
     font-size: 56px;
     font-weight: bold;
 }
+.ptag{
+    margin-top: 59px;
+}
 .txt button{
     height: 50px;
     width: 50%;
@@ -171,6 +175,9 @@ nav{
 .arrow img{
     object-fit: contain;
     margin-left: 20px;
+    margin-top: 40px;
+}
+.ptag1{
     margin-top: 40px;
 }
 .sec2 input {
@@ -307,6 +314,12 @@ margin-left: 80px;
 
 
     
+}
+.ptag3{
+    text-align: center; 
+    color: white; 
+    font-size: 26px; 
+    margin-top: 120px;
 }
 
 .car img{
