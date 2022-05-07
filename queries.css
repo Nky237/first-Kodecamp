@@ -1,0 +1,249 @@
+@media only screen and (max-width:1280px){
+   body{
+       overflow-x: hidden;
+       width: 100%;
+   }
+   .box{
+       width: 100%;
+   }
+   .box1, .box2, .box3, .box4,.box5, .box6, .box7,.box8,.box9{
+    width: 100%;
+}
+   .whatsapp{
+    border-left: 1px solid black;
+    width: 40%;
+   height: 40px;
+   margin-left:60px;
+   display: flex;
+ 
+}
+.box6{
+    height: 460px;
+    padding-top: 80px;
+}
+.box6 h2{
+    text-align: center;
+    font-size: 30px;
+}
+.logo{
+   width: 60%;
+  margin-left: 250px; 
+    
+}
+
+
+
+}
+@media only screen and (max-width:1024px){
+    body{
+        /* overflow-x: hidden; */
+        width: 100%;
+    }
+    .box1, .box2, .box3, .box4,.box5, .box6, .box7,.box8,.box9{
+        width: 100%;
+    }
+    .whatsapp{
+        margin-left:180px;
+        width: 40%;
+        
+        }
+        
+        .bar{
+            /* border: 2px solid black; */
+             margin-left:20px; 
+        }
+        .txt button{
+          margin-top: 20px;
+        }
+        .cam{
+            margin: 40px 50px;
+        }
+        .box2 {
+            background-color: #E2E6E9;
+            display: flex;
+            padding-top: 50px;
+            padding-left: 50px;
+            width: 100%;
+        }
+        .circ {
+            width: 50%;
+            margin-top: 5px;
+        }
+        .car2 img {
+            width: 95%;
+            height: 300px;
+            position: absolute;
+            left: -124px;
+        }
+        .car1{
+            background-color: orangered;
+            position: absolute;
+            left: 126px;
+            width: 40%;
+            height: 300px;
+        }
+}
+@media only screen and (max-width:768px){
+    nav{
+        /* border: 1px solid black;  */
+         margin-left: 10px; 
+            }
+    .golo img{
+       
+        margin-top: 2px;
+    }
+    
+     .bar{
+         /* border: 2px solid black; */
+         width: 40%;
+        height: 40px;
+        margin-left:20px;
+        
+       
+    }
+    .bar ul{
+        display: flex;
+        margin-left: 20px;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .bar ul li{
+        list-style: none;
+        margin-left: 20px;
+       
+    }
+    .bar ul li a{
+        list-style: none;
+        margin-left: 5px;
+        text-decoration: none;
+        color: black;
+    
+    
+    }
+    .whatsapp{
+        border-left: 1px solid black;
+        width: 30%;
+       height: 40px;
+       margin-left:90px;
+       display: flex;
+     
+    }
+    
+    
+    .txt h1{
+        font-size: 36px;
+        font-weight: bold;
+    }
+    .txt button{
+        height: 40px;
+        width: 40%;
+        margin-top: 35px;
+    }
+    .txt button a{
+       
+        text-decoration: none;
+    
+    }
+    .sec1 h2{
+        font-size: 28px;
+    }
+    .sec2 h3{
+        font-size: 28px;
+    
+    }
+    .para h1{
+        font-size: 22px;
+    }
+   
+    .par{
+            margin-top: 26px;
+        
+        
+    }
+       .writ p{
+        line-height: 17px;
+        font-size: 16px;
+        
+    }
+    
+
+
+
+    
+.onek img {
+    width: 25%;
+    margin-top: 40px;
+    margin-left: 46px;
+}
+ 
+
+
+.car2 img {
+    width: 95%;
+    height: 300px;
+    position: absolute;
+    left: -236px;
+}
+.car1{
+    background-color: orangered;
+    position: absolute;
+    left: 96px;
+    width: 40%;
+    height: 300px;
+}
+
+
+
+.logo {
+    margin-left: 150px;
+}
+.log img{
+    margin-left: 25px;
+}
+
+
+.box71 {
+    width: 30%;
+    height: 250px;
+}
+.box71 img{
+    padding-left: 3px;
+}
+
+.freq3 h5 {
+    font-size: 20px;
+}
+.freq3 p{
+    font-size: 14px;
+}
+
+
+
+/* FOOTER SECTION */
+.foot1 {
+    /* border: 1px solid white; */
+      padding-left: 10px;
+}
+.foot1 h1{
+    font-size: 17px;
+}
+.foot1 .icony{
+margin-right: 3px;
+}
+.foot2 .bar li a {
+    margin-left: 30px;
+    color: white;
+}
+.whatsapp p{
+    font-size: 12px;
+}
+.foot2 .bar {
+    margin-left: -46px;
+}
+}
+@media only screen and (max-width:480px){
+
+}
+@media only screen and (max-width:380px){
+
+}
