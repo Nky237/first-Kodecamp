@@ -1,0 +1,117 @@
+@media only screen and (max-width:1024px){
+    /* SECTION ONE */
+
+    .bar{
+        margin-left: 69px;
+    }
+    .bar ul{
+        margin-left: -101px;
+    }
+    .cary2, .cary3{
+        min-height: 380px;
+    }
+    .car2{
+    left: 477px;
+    }
+}
+
+@media only screen and (max-width:950px){
+    .bar ul{
+        margin-left: -129px;
+    }
+    .cary2, .cary3{
+        min-height: 480px;
+    }
+    .writy{
+        margin-top: 128px;
+    }
+    .non{
+        width: 30%;
+    }
+
+    .footer{
+        justify-content: space-around;
+    }
+     .foot1{
+        /* border: 1px solid white; */
+       display: none;
+    }
+    .foot{
+        border: 1px solid black;
+        height: 0px;
+        background-color: black;
+        display: flex;
+
+    
+    }
+    .foot2{
+        /* border: 1px solid white; */
+        background-color: black;
+        color: white;
+        height: 500px;
+        display: flex;
+        /* align-items: center; */
+        justify-content: space-around;
+    }
+   .footer .golo img{
+        height: 50px;
+        margin-left: 10px;
+    }
+   .footer .golo{
+        margin: 50px 10px;
+    }
+   .footer .golo{   
+         margin-left: -234px;
+    }
+
+   .footer nav{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .footer nav ul{
+        display: flex;
+        flex-direction: column;
+    }
+   
+    
+    .foot2 .bar{
+        margin-top: 10px;
+        margin-bottom: 100px;
+    }
+    
+     
+    
+    .foot2 li a{
+        color: white;
+        padding-bottom: 20px;
+        font-size: 22px;
+    }
+    
+    .foot2 .whatsapp{
+        border: none;
+        margin-top: 20px;
+        margin-left: 0px;
+        width: 100%;
+    }
+    
+     
+   
+   
+}
+
+@media only screen and (max-width:830px) {
+  .whatsapp{
+      display: none;
+  }  
+  .bar {
+    margin-left: 122px;
+  }
+  .car2 {
+    left: 421px;
+}
+
+.cary2, .cary3 {
+    min-height: 580px;
+}
+}

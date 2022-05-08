@@ -73,7 +73,7 @@ nav{
 
 }
 .whatsapp{
-    border-left: 1px solid black;
+    /* border-left: 1px solid black; */
     width: 20%;
    height: 40px;
    margin-left:40px;
@@ -424,7 +424,7 @@ margin-left: 80px;
 }
 .box71{
  width: 100%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
    width: 28%;
    height: 200px; 
    display: flex;

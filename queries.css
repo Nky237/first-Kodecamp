@@ -47,14 +47,18 @@
         width: 100%;
     }
     .whatsapp{
-        margin-left:180px;
-        width: 40%;
+        margin-left:198px;
+        width: 30%;
         
         }
         
         .bar{
             /* border: 2px solid black; */
              margin-left:20px; 
+        }
+        .bar ul{
+            margin-top: 7px;
+            margin-left: -32px;
         }
         .onek img{
             margin-left: 63px;
@@ -713,18 +717,44 @@ margin-right: 3px;
      margin-top: 120px;
     }
 
+    /* BOX 6 */
+    .logo{
+        display: flex;
+        flex-direction: column;
+    }
+
 /* BOX 7 */
+
+.box7{
+    height: 550px;
+}
 .box70{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around
+}
+ .box71 {
+    width: 100%;
+    height: 190px;
+    margin-left: 7px;
+    border: none;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+} 
+
+/* .box70{
     justify-content: space-around
 }
  .box71 {
     width: 43%;
     height: 350px;
     border: none;
+    margin-right: 20px;
 } 
 .city h3{
     font-size: 13px;
-}
+} */
  
 
 /* BOX 8 */
@@ -748,7 +778,7 @@ margin-right: 3px;
 .freq1{
  /* border: 2px solid black; */
  width: 100%;
- height: 130px;
+ height: 150px;
  display: flex;
  justify-content: space-around;
  background-color: white;
@@ -836,8 +866,7 @@ margin-right: 3px;
         
     }
 
-    /* BOX4 */
-    
+    /* BOX3 */
     .onek p{
          text-align: center;
          font-size: 10px;
@@ -861,9 +890,34 @@ margin-right: 3px;
      font-size: 16px; 
      margin-top: 120px;
     }
-
+    
+    /* BOX 6 */
+    .logo{
+        display: flex;
+        flex-direction: column;
+    }
+   
 /* BOX 7 */
+
+.box7{
+    height: 550px;
+}
 .box70{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around
+}
+ .box71 {
+    width: 100%;
+    height: 190px;
+    margin-left: 7px;
+    border: none;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+} 
+
+/* .box70{
     justify-content: space-around
 }
  .box71 {
@@ -877,7 +931,7 @@ margin-right: 3px;
 }
 .box7 h2{
     font-size: 17px;
-} 
+}  */
 
 /* BOX 8 */
 
@@ -890,7 +944,7 @@ margin-right: 3px;
 
 
 /* BOX 9 */
-.foot2 nav{
+/* .foot2 nav{
     display: flex;
     justify-content: space-around;
 }
@@ -913,6 +967,73 @@ margin-right: 3px;
 }
 .foot2 nav {
     margin-left: -105px;
+} */
+.footer{
+    min-height: 700px;
+}
+.foot1{
+    /* border: 1px solid white; */
+   display: none;
+}
+.foot{
+    border: 1px solid black;
+    height: 0px;
+    background-color: black;
+    display: flex;
+
+
+}
+.foot2{
+    /* border: 1px solid white; */
+    background-color: black;
+    color: white;
+    height: 500px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+}
+.footer .golo img{
+    height: 30px;
+    width: 140px; 
+    margin-left: 10px;
+}
+.footer .golo{
+    margin: 50px 10px;
+}
+.footer .golo{   
+    
+    margin-left: -154px;
+}
+
+.footer nav{
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer nav ul{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.foot2 .bar{
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+ 
+
+.foot2 li a{
+    color: white;
+    padding-bottom: 20px;
+    font-size: 22px;
+}
+
+.foot2 .whatsapp{
+    border: none;
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 100%;
 }
 }
 
@@ -1050,7 +1171,7 @@ margin-right: 3px;
 
 
 /* BOX 9 */
-.foot2 nav{
+/* .foot2 nav{
     display: flex;
     justify-content: space-around;
 }
@@ -1073,7 +1194,71 @@ margin-right: 3px;
 }
 .foot2 nav {
     margin-left: -105px;
+} */
+
+.foot1{
+    /* border: 1px solid white; */
+   display: none;
 }
+.foot{
+    border: 1px solid black;
+    height: 0px;
+    background-color: black;
+    display: flex;
+
+
+}
+.foot2{
+    /* border: 1px solid white; */
+    background-color: black;
+    color: white;
+    height: 500px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+}
+.footer .golo img{
+    height: 50px;
+    margin-left: 10px;
+}
+.footer .golo{
+    margin: 50px 10px;
+}
+.footer .golo{   
+     margin-left: -234px;
+}
+
+.footer nav{
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer nav ul{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.foot2 .bar{
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+ 
+
+.foot2 li a{
+    color: white;
+    padding-bottom: 20px;
+    font-size: 22px;
+}
+
+.foot2 .whatsapp{
+    border: none;
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 100%;
+}
+
 }
 
 
