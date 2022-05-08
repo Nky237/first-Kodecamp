@@ -53,6 +53,11 @@ nav{
     margin-left: 60px;
 
 }
+.bar ul li a{
+    color: black;
+    list-style: none;
+}
+
 .whatsapp{
     border-left: 1px solid black;
     width: 20%;
