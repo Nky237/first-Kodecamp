@@ -278,7 +278,7 @@ margin-right: 3px;
 
 
 }
-@media only screen and (max-width:500px){
+@media only screen and (max-width:540px){
     nav{
         /* border: 1px solid black;  */
         width:100%; 
@@ -363,11 +363,12 @@ margin-right: 3px;
      
         display: flex;
         flex-direction: column;
-        min-height: 700px;
+        min-height: 800px;
     }
     .sec1{
         width: 100%;
-        min-height: 320px;
+        min-height: 390px;
+        padding-right: 10px;
     }
     .sec1 h2{
         font-size: 26px;
@@ -523,7 +524,11 @@ margin-right: 3px;
     width: 49%;
     height: 250px;
 } 
-  
+ 
+
+/* BOX 8 */
+.box8{
+    height: 1000px;}
 .box8 h2{
     text-align: center;
     margin-top: 40px;
@@ -534,13 +539,13 @@ margin-right: 3px;
  display: flex;
  flex-direction: column;
  width: 80%;
- height: 610px;
+ height: 910px;
  justify-content: space-around;
 }
 .freq1{
  /* border: 2px solid black; */
  width: 100%;
- height: 70px;
+ height: 160px;
  display: flex;
  justify-content: space-around;
  background-color: white;
@@ -786,6 +791,7 @@ margin-right: 3px;
 
 
 
+
 @media only screen and (max-width:400px){
     .bar ul li{
         margin-left: 6px;
@@ -875,6 +881,166 @@ margin-right: 3px;
 
 /* BOX 8 */
 
+.freq3 h5 {
+    font-size: 17px;
+    padding-bottom: 2px;
+}
+
+
+
+
+/* BOX 9 */
+.foot2 nav{
+    display: flex;
+    justify-content: space-around;
+}
+.icony{
+    display: none;
+}
+.foot2 .bar li a {
+    margin-left: 6px;
+    color: white;
+}
+.foot2 .golo{
+    margin-left: 10px;
+}
+.foot2 .golo img{
+    color: #FF6433;
+    background-color: white;
+    height: 20px;
+    display: none;
+    
+}
+.foot2 nav {
+    margin-left: -105px;
+}
+}
+
+
+
+
+
+@media only screen and (max-width:300px){
+    .box1{
+        height: 700px;
+    }
+     .golo{
+         width: 10%;
+     }
+     .bar{
+         width: 90%;
+     }
+     .bar ul li a{
+        margin-left: 6px;
+        font-size: 11px;
+        
+    }
+    .pic{
+        display: flex;
+        flex-direction: column;
+    }
+    .txt{
+        width: 100%;
+        margin-top: 57px;
+        margin-left: 7px;
+    }
+    .font h1{
+        font-size: 17px;
+    }
+    .cam{
+        width: 100%;
+        justify-content: center;
+        margin-left: 2px;
+        order: 1;
+
+    }
+    
+   
+
+    /* BOX 3 */
+    .box3{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 900px;
+    }
+    .para{
+        margin-left: 10px;
+        width: 100%;
+        margin-top: 40px;
+        padding-right: 10px;
+        height: 100px;
+
+    }
+   
+    .circ{
+        width: 100%;
+        margin-top: -10px;
+        margin-left: -72px;
+        
+    }
+
+    
+    /* BOX 4 */
+    .car1{
+        left:46px;
+    }
+    .car2 img{
+        left: -471px ;   
+    }  
+    .fet1 h2, .fet2 h2, .fet3 h2, .fet4 h2{
+      font-size: 19px;  
+    }
+    .fet1 p, .fet2 p, .fet3 p, .fet4 p{
+      font-size: 10px;  
+    }
+    .ptag3{
+     font-size: 16px; 
+     margin-top: 120px;
+    }
+
+    /* BOX 6 */
+    .logo{
+        display: flex;
+        flex-direction: column;
+    }
+
+/* BOX 7 */
+.box7{
+    height: 550px;
+}
+.box70{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around
+}
+ .box71 {
+    width: 100%;
+    height: 190px;
+    margin-left: 7px;
+    border: none;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+} 
+.city h3{
+    font-size: 13px;
+}
+.box7 h2{
+    font-size: 17px;
+} 
+
+/* BOX 8 */
+.box8{
+    height: 1200px;
+}
+.freq{
+    height: 1000px;
+}
+.freq1{
+    height: 165px;
+    margin-bottom: 1px;
+}
 .freq3 h5 {
     font-size: 17px;
     padding-bottom: 2px;
