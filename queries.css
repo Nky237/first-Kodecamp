@@ -564,6 +564,223 @@ margin-right: 3px;
 }
                     
 
-@media only screen and (max-width:380px){
+@media only screen and (max-width:480px){
+    nav{
+        /* border: 1px solid black;  */
+        width:100%; 
+        margin-left: 2px; 
+         }
+    .golo{
+        /* border: 2px solid black; */
+        width: 10%;
+        height: 40px;
+        margin-top: 10px;
+    }
+    .golo img{
+        width: 60px;
+        height: 30px;
+    }
+    
+    .circ {
+        width: 50%;
+        margin-top: 50px;
+    }
+    .bar{
+         /* border: 2px solid black; */
+         width: 70%;
+        height: 40px;
+        margin-left:10px;
+        
+       
+    }
+    .bar ul{
+        margin-left: 24px;
+        margin-top: 15px;
+    }
+     
+    .txt{
+        margin-top: 90px;
+        margin-left: 20px;
+        /* text-align: center; */
+    }
+    .txt button{
+        height: 30px;
+        width: 50%;
+         margin-top: 19px;
+         font-size: 12px;
+    }
+    
+    
 
+    /* BOX2 */
+    .box2{
+         min-height: 900px;
+    }
+    .sec1{
+        width: 100%;
+        min-height: 480px;
+    }
+    .sec1 h2{
+        font-size: 26px;
+        white-space: nowrap;
+        text-align: left;
+    }
+    
+    .sec2{
+        /* border: 2px solid black; */
+        width: 100%;
+       min-height: 500px;
+        margin-left: 20px
+    }
+    
+    .sec2 h3{
+        font-size: 23px;
+        padding-bottom: 10px;
+    }
+    .arrow{
+        display: flex;
+        margin-left: 30px;
+        
+    }
+    .arrow img{
+        object-fit: contain;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .ptag1 {
+        margin-top: 10px;
+    }
+    .sec2 input {
+        width: 90%;
+        padding: 10px;
+        margin-bottom: 10px;
+        height: 30px;
+    }
+    .sec2 button{
+         margin-top: 20px;
+        font-size: 12px;
+     
+    }
+
+
+
+    /* BOX 3 */
+    .box3{
+        height: 680px;
+    }
+    .para{
+        margin-left: 20px;
+        width: 30%;
+    }
+    .circ{
+        width: 67%;
+        margin-top: -50px;
+        
+    }
+    .par{
+        display: flex;
+        flex-direction: row;
+        margin-top: 60px;
+        margin-left: 90px;
+        
+    }
+    .writ h2{
+        margin-bottom: 5px;
+        font-size: 15px;
+    }
+    
+
+    /* BOX4 */
+    
+    .onek p{
+         text-align: center;
+         font-size: 13px;
+    }
+
+
+    /* BOX 4 */
+    
+    .car2 img{
+        left: -400px    
+    }  
+    .ptag3{
+     font-size: 16px; 
+     margin-top: 120px;
+    }
+
+/* BOX 7 */
+.box70{
+    justify-content: space-around
 }
+ .box71 {
+    width: 43%;
+    height: 350px;
+    border: none;
+} 
+.city h3{
+    font-size: 13px;
+}
+ 
+
+/* BOX 8 */
+.box8{
+    height: 1000px;
+}
+.box8 h2{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.freq{
+ /* border: 2px solid black; */
+ display: flex;
+ flex-direction: column;
+ width: 90%;
+ height: 900px;
+ justify-content: space-around;
+}
+.freq1{
+ /* border: 2px solid black; */
+ width: 100%;
+ height: 130px;
+ display: flex;
+ justify-content: space-around;
+ background-color: white;
+}
+.freq3{
+ width: 80%;
+ padding-top: 10px;
+}
+.freq3 h5{
+ font-size: 25px;
+}
+
+
+/* BOX 9 */
+.foot2 nav{
+    display: flex;
+    justify-content: space-around;
+}
+.icony{
+    display: none;
+}
+.foot2 .bar li a {
+    margin-left: 6px;
+    color: white;
+}
+.foot2 .golo{
+    margin-left: 10px;
+}
+.foot2 .golo img{
+    color: #FF6433;
+    background-color: white;
+    height: 20px;
+    
+}
+.foot2 nav {
+    margin-left: -51px;
+}
+}
+
+
