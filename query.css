@@ -4,6 +4,9 @@
     .bar{
         margin-left: 69px;
     }
+    .writy p{
+    font-size: 13px;
+    }
     .bar ul{
         margin-left: -101px;
     }
@@ -72,17 +75,18 @@
     .footer nav ul{
         display: flex;
         flex-direction: column;
+        /* background-color: white; */
     }
    
     
     .foot2 .bar{
         margin-top: 10px;
-        margin-bottom: 100px;
+        margin-bottom: 135px;
     }
     
      
     
-    .foot2 li a{
+    .bar ul li a{
         color: white;
         padding-bottom: 20px;
         font-size: 22px;
@@ -101,7 +105,33 @@
 }
 
 @media only screen and (max-width:830px) {
-  .whatsapp{
+     .bar ul{
+       background-color: black;
+        display: flex;
+        margin-left: -172px;
+        align-items: center;
+        margin-top: -1px;
+    }
+    .bar ul li{
+        list-style: none;
+        margin-left: 60px;
+    
+    }
+    .bar ul li a{
+        color: black;
+        list-style: none;
+        font-size: 20px;
+    }
+    
+    .icon img{
+        height: 40px;
+        margin-left: 10px;
+    }
+    .inner-section{
+        margin-left: 20px;
+    }
+    
+   .box1  nav .whatsapp{
       display: none;
   }  
   .bar {
@@ -114,4 +144,16 @@
 .cary2, .cary3 {
     min-height: 580px;
 }
+
+/* SECTION TWO */
+.bar ul li a{
+    color: white;
+    padding-bottom: 20px;
+    font-size: 22px;
 }
+
+}
+
+
+@media only screen and (max-width: 540px)
+
