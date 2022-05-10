@@ -100,28 +100,7 @@ nav{
     width: 100%;
     /* position: relative; */
 }
-.absolute {
-position: relative;
-}
-.absy1{
-    position: absolute;
-    left: -719px;
-    top: 4px;
-    height: 192px;
-    
-   }
-.abs2{
-    position: absolute;
-    left: -322px;
-    top: 295px;
-    height: 152px; 
-}
-.absy1 img , .abs2 img{
-   
-    width: 373px;
 
-   
-}
 .txt{
     width: 50%;
     margin-top: 150px;
