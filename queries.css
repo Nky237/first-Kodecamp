@@ -477,11 +477,14 @@
         width: 100%;
     }
     .box8{
-        height: 1000px;
+        min-height:1200px;
     }
     .freq1{
-        height: 220px;
+        height: 250px;
         margin-bottom: 30px;
+    }
+    .freq{
+        height: 1120px;
     }
 
 }
